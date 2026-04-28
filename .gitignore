@@ -14,6 +14,24 @@
 /wp-comments-post.php
 /xmlrpc.php
 /index.php
+/license.txt
+/readme.html
+/wp-config-sample.php
+/wp-links-opml.php
+
+# Default WordPress files at wp-content root
+wp-content/index.php
+wp-content/plugins/index.php
+wp-content/themes/index.php
+
+# Bundled plugins not part of this demo
+wp-content/plugins/akismet/
+wp-content/plugins/hello.php
+
+# Bundled themes not part of this demo
+wp-content/themes/twentytwentythree/
+wp-content/themes/twentytwentyfour/
+wp-content/themes/twentytwentyfive/
 
 # WordPress config (contains secrets)
 wp-config.php
