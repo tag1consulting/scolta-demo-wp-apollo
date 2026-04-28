@@ -1,0 +1,55 @@
+# WordPress core — checked out separately; do not commit
+/wordpress/
+/wp-admin/
+/wp-includes/
+/wp-login.php
+/wp-signup.php
+/wp-activate.php
+/wp-trackback.php
+/wp-cron.php
+/wp-mail.php
+/wp-settings.php
+/wp-blog-header.php
+/wp-load.php
+/wp-comments-post.php
+/xmlrpc.php
+/index.php
+
+# WordPress config (contains secrets)
+wp-config.php
+wp-config-local.php
+wp-config-ddev.php
+
+# Uploads — large binaries, not tracked
+wp-content/uploads/
+
+# Debug / logs
+wp-content/debug.log
+error_log
+*.log
+
+# Cache plugins
+wp-content/cache/
+wp-content/w3tc-config/
+
+# Plugins not part of this demo (third-party)
+# wp-content/plugins/<anything not scolta or hello/akismet>
+
+# OS / editor noise
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# DDEV runtime (not needed for clone-and-start)
+.ddev/.gitignore
+.ddev/homeadditions/
+.ddev/import-db/
