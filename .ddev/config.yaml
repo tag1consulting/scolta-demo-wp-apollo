@@ -13,7 +13,8 @@ database:
   version: "10.11"
 use_dns_when_possible: true
 composer_version: "2"
-web_environment: []
+web_environment:
+  - SCOLTA_API_KEY=SCOLTA_API_KEY_PLACEHOLDER
 nodejs_version: "20"
 
 hooks:
