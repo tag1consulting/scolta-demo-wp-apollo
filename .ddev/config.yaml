@@ -18,4 +18,5 @@ nodejs_version: "20"
 
 hooks:
   post-start:
+    - exec: "cd /var/www/html/wp-content/plugins/scolta-wp && composer install --no-interaction --no-dev"
     - exec: "bash -c 'if [ -f /var/www/html/db/dump.sql.gz ]; then zcat /var/www/html/db/dump.sql.gz | mysql -u root -proot db && wp search-replace --url=https://counting-down-apollo.ddev.site --skip-columns=guid \"$(wp option get siteurl 2>/dev/null || echo https://counting-down-apollo.ddev.site)\" https://counting-down-apollo.ddev.site --allow-root 2>/dev/null || true; fi'"
