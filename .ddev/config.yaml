@@ -5,19 +5,16 @@ php_version: "8.3"
 webserver_type: nginx-fpm
 router_http_port: "80"
 router_https_port: "443"
-xdebug_enabled: false
-additional_hostnames: []
-additional_fqdns: []
 database:
   type: mariadb
   version: "10.11"
-use_dns_when_possible: true
 composer_version: "2"
 web_environment:
   - SCOLTA_API_KEY=SCOLTA_API_KEY_PLACEHOLDER
-nodejs_version: "20"
 
 hooks:
   post-start:
     - exec: "cd /var/www/html/wp-content/plugins/scolta-wp && composer install --no-interaction --no-dev"
-    - exec: "bash -c 'if [ -f /var/www/html/db/dump.sql.gz ]; then zcat /var/www/html/db/dump.sql.gz | mysql -u root -proot db && wp search-replace --url=https://counting-down-apollo.ddev.site --skip-columns=guid \"$(wp option get siteurl 2>/dev/null || echo https://counting-down-apollo.ddev.site)\" https://counting-down-apollo.ddev.site --allow-root 2>/dev/null || true; fi'"
+    - exec-host: "[ -f db/dump.sql.gz ] && ddev import-db --file=db/dump.sql.gz || true"
+    - exec: "wp option update siteurl 'https://counting-down-apollo.ddev.site' 2>/dev/null || true"
+    - exec: "wp option update home 'https://counting-down-apollo.ddev.site' 2>/dev/null || true"

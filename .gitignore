@@ -1,73 +1,40 @@
-# WordPress core — checked out separately; do not commit
-/wordpress/
-/wp-admin/
-/wp-includes/
-/wp-login.php
-/wp-signup.php
-/wp-activate.php
-/wp-trackback.php
-/wp-cron.php
-/wp-mail.php
-/wp-settings.php
-/wp-blog-header.php
-/wp-load.php
-/wp-comments-post.php
-/xmlrpc.php
-/index.php
-/license.txt
-/readme.html
-/wp-config-sample.php
-/wp-links-opml.php
-
-# Default WordPress files at wp-content root
-wp-content/index.php
-wp-content/plugins/index.php
-wp-content/themes/index.php
-
-# Bundled plugins not part of this demo
-wp-content/plugins/akismet/
-wp-content/plugins/hello.php
-
-# Bundled themes not part of this demo
-wp-content/themes/twentytwentythree/
-wp-content/themes/twentytwentyfour/
-wp-content/themes/twentytwentyfive/
-
 # WordPress config (contains secrets)
 wp-config.php
 wp-config-local.php
 wp-config-ddev.php
-
-# Uploads — large binaries, not tracked
-wp-content/uploads/
-
-# Debug / logs
-wp-content/debug.log
+wp-config-sample.php
 error_log
+debug.log
 *.log
 
-# Cache plugins
-wp-content/cache/
-wp-content/w3tc-config/
+# DDEV local overrides
+.ddev/.gitignore
+.ddev/import-db/
+.ddev/sequelpro.spf
+.ddev/db_snapshots/
+.ddev/homeadditions/
 
-# Plugins not part of this demo (third-party)
-# wp-content/plugins/<anything not scolta or hello/akismet>
+# Node
+node_modules/
+npm-debug.log
 
-# OS / editor noise
+# macOS
 .DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
+**/.DS_Store
+
+# IDE
+.idea/
+.vscode/
 *.swp
 *.swo
 *~
-.idea/
-.vscode/
 
-# DDEV runtime (not needed for clone-and-start)
-.ddev/.gitignore
-.ddev/homeadditions/
-.ddev/import-db/
+# Uploads - committed intentionally for demo
+# wp-content/uploads is NOT gitignored
+
+# WP core cache
+wp-content/cache/
+wp-content/upgrade/
+
+# Composer
+vendor/
