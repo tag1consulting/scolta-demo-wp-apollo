@@ -157,6 +157,8 @@ RUN sed -i "s/^Listen 80/Listen 0.0.0.0:8080/" /etc/apache2/ports.conf && \
 
 RUN a2enmod rewrite remoteip
 
+RUN rm -rf /var/www/html && mkdir -p /var/www/html
+
 COPY --from=composer /app .
 
 RUN mv wp-config-container.php wp-config.php
