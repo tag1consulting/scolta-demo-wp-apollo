@@ -5,14 +5,6 @@
     <?php else : ?>
 
         <div class="widget">
-            <h3 class="widget-title">Search the Archive</h3>
-            <form class="search-form" method="get" action="<?php echo esc_url( home_url( '/' ) ); ?>">
-                <input type="search" name="s" placeholder="Search posts&hellip;" value="<?php echo esc_attr( get_search_query() ); ?>">
-                <button type="submit">Go</button>
-            </form>
-        </div>
-
-        <div class="widget">
             <h3 class="widget-title">Missions</h3>
             <ul>
                 <?php
