@@ -18,3 +18,4 @@ hooks:
     - exec-host: "[ -f db/dump.sql.gz ] && ddev import-db --file=db/dump.sql.gz || true"
     - exec: "wp option update siteurl 'https://counting-down-apollo.ddev.site' 2>/dev/null || true"
     - exec: "wp option update home 'https://counting-down-apollo.ddev.site' 2>/dev/null || true"
+    - exec: "wp option patch insert scolta_settings preset blog 2>/dev/null || true"
