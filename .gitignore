@@ -36,5 +36,8 @@ npm-debug.log
 wp-content/cache/
 wp-content/upgrade/
 
+# Scolta runtime state (build output is committed, state is not)
+wp-content/uploads/scolta/state/
+
 # Composer
 vendor/
