@@ -19,3 +19,4 @@ hooks:
     - exec: "wp option update siteurl 'https://counting-down-apollo.ddev.site' 2>/dev/null || true"
     - exec: "wp option update home 'https://counting-down-apollo.ddev.site' 2>/dev/null || true"
     - exec: "wp option patch insert scolta_settings preset blog 2>/dev/null || true"
+    - exec: "wp eval-file /var/www/html/import/setup-about-page.php 2>/dev/null || true"
