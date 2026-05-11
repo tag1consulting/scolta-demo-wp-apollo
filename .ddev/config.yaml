@@ -9,9 +9,6 @@ database:
   type: mariadb
   version: "10.11"
 composer_version: "2"
-web_environment:
-  - SCOLTA_API_KEY=SCOLTA_API_KEY_PLACEHOLDER
-
 hooks:
   post-start:
     - exec: "cd /var/www/html/wp-content/plugins/scolta-wp && composer install --no-interaction --no-dev"
@@ -19,3 +16,4 @@ hooks:
     - exec: "wp option update siteurl 'https://counting-down-apollo.ddev.site' 2>/dev/null || true"
     - exec: "wp option update home 'https://counting-down-apollo.ddev.site' 2>/dev/null || true"
     - exec: "wp option patch insert scolta_settings preset blog 2>/dev/null || true"
+    - exec: "wp eval-file /var/www/html/import/setup-about-page.php 2>/dev/null || true"
