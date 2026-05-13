@@ -11,7 +11,7 @@ database:
 composer_version: "2"
 hooks:
   post-start:
-    - exec: "cd /var/www/html/wp-content/plugins/scolta-wp && composer install --no-interaction --no-dev"
+    - exec: "cd /var/www/html/wp-content/plugins/scolta && composer install --no-interaction --no-dev"
     - exec-host: "[ -f db/dump.sql.gz ] && ddev import-db --file=db/dump.sql.gz || true"
     - exec: "wp option update siteurl 'https://counting-down-apollo.ddev.site' 2>/dev/null || true"
     - exec: "wp option update home 'https://counting-down-apollo.ddev.site' 2>/dev/null || true"

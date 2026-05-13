@@ -54,7 +54,7 @@ RUN curl -o /tmp/composer-setup.php https://getcomposer.org/installer && \
 
 COPY . .
 
-RUN composer install -d wp-content/plugins/scolta-wp --no-ansi --no-dev --no-interaction --no-progress --no-scripts --optimize-autoloader --prefer-dist
+RUN composer install -d wp-content/plugins/scolta --no-ansi --no-dev --no-interaction --no-progress --no-scripts --optimize-autoloader --prefer-dist
 
 FROM php-base
 
