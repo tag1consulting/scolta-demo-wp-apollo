@@ -42,3 +42,4 @@ wp-content/uploads/scolta/state/
 # Composer
 vendor/
 .claude/
+wp-content/plugins/plugin-check/
