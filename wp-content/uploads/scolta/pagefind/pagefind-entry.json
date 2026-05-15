@@ -1,1 +1,11 @@
-{"version":"1.5.2","languages":{"en":{"hash":"en_f38e7ecb1b","wasm":"en","page_count":203}},"include_characters":["_","‿","⁀","⁔","︳","︴","﹍","﹎","﹏","＿"]}
+{
+    "version": "1.5.0",
+    "languages": {
+        "en": {
+            "hash": "en_9173bffa86",
+            "wasm": "en",
+            "page_count": 204
+        }
+    },
+    "include_characters": []
+}
