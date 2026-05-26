@@ -43,20 +43,60 @@ function apollo_blog_activate() { flush_rewrite_rules(); }
 add_action( 'after_switch_theme', 'apollo_blog_activate' );
 
 /**
- * Exclude non-content pages from Scolta search indexing.
- *
- * The "About This Blog" and "Search" pages contain site chrome rather than
- * searchable content. Excluding them prevents accidental matches when a
- * search query happens to match words used in the site description.
- *
- * Resources, Glossary, and Mission Timeline are kept — they contain
- * curated reference content that is genuinely useful to find via search.
+ * Enrich Scolta ContentItem with category/program filters and exclude chrome pages.
  */
-add_filter( 'scolta_content_item', 'apollo_blog_scolta_exclude_pages', 10, 2 );
+add_filter( 'scolta_content_item', 'apollo_blog_scolta_enrich', 10, 2 );
 
-function apollo_blog_scolta_exclude_pages( $item, $post ) {
+function apollo_blog_scolta_enrich( $item, $post ) {
+	if ( $item === null ) {
+		return null;
+	}
+
 	if ( 'page' === $post->post_type && in_array( $post->post_name, array( 'about', 'search' ), true ) ) {
 		return null;
 	}
+
+	$filters = $item->filters;
+
+	$categories = wp_get_post_categories( $post->ID, array( 'fields' => 'names' ) );
+	if ( ! empty( $categories ) ) {
+		$program_map = array(
+			'Apollo 1'        => 'Apollo',
+			'Apollo 7'        => 'Apollo',
+			'Apollo 8'        => 'Apollo',
+			'Apollo 9'        => 'Apollo',
+			'Apollo 10'       => 'Apollo',
+			'Apollo 11'       => 'Apollo',
+			'Apollo 12'       => 'Apollo',
+			'Apollo 13'       => 'Apollo',
+			'Apollo 14'       => 'Apollo',
+			'Apollo 15'       => 'Apollo',
+			'Apollo 16'       => 'Apollo',
+			'Apollo 17'       => 'Apollo',
+			'Mercury'         => 'Mercury',
+			'Gemini'          => 'Gemini',
+			'Gemini Program'  => 'Gemini',
+			'Space Race'      => 'Space Race',
+			'Technology'      => 'Technology',
+			'Reflections'     => 'Reflections',
+		);
+
+		$programs = array();
+		foreach ( $categories as $cat ) {
+			if ( isset( $program_map[ $cat ] ) ) {
+				$programs[] = $program_map[ $cat ];
+			}
+		}
+		$programs = array_unique( $programs );
+		if ( ! empty( $programs ) ) {
+			$filters['program'] = array_values( $programs );
+		}
+		$filters['category'] = $categories;
+	}
+
+	if ( $filters !== $item->filters ) {
+		$item = $item->cloneWith( array( 'filters' => $filters ) );
+	}
+
 	return $item;
 }
