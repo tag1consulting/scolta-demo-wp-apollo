@@ -752,12 +752,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/tag1consulting/scolta-php.git",
-                "reference": "527faa51df9476ccbbb9d7a91d69c095d9058ae0"
+                "reference": "666b7a0ad682ad1faf0f0096498bdd5bb18048d7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tag1consulting/scolta-php/zipball/527faa51df9476ccbbb9d7a91d69c095d9058ae0",
-                "reference": "527faa51df9476ccbbb9d7a91d69c095d9058ae0",
+                "url": "https://api.github.com/repos/tag1consulting/scolta-php/zipball/666b7a0ad682ad1faf0f0096498bdd5bb18048d7",
+                "reference": "666b7a0ad682ad1faf0f0096498bdd5bb18048d7",
                 "shasum": ""
             },
             "require": {
@@ -810,7 +810,7 @@
                 "issues": "https://github.com/tag1consulting/scolta-php/issues",
                 "source": "https://github.com/tag1consulting/scolta-php"
             },
-            "time": "2026-07-22T17:11:19+00:00"
+            "time": "2026-07-23T06:01:03+00:00"
         }
     ],
     "packages-dev": [
