@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "736e9af6cd0ca6ff4059dfc9f0b1de2e",
+    "content-hash": "3e89abd3468dd5b0f8b5fb6de672b3cc",
     "packages": [
         {
             "name": "guzzlehttp/guzzle",
@@ -748,16 +748,16 @@
         },
         {
             "name": "tag1/scolta-php",
-            "version": "dev-main",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tag1consulting/scolta-php.git",
-                "reference": "d10800c16550859cbe8af4111b4ded8e1f771b5f"
+                "reference": "8fac0c70d24c06b4e146cfc653af353f3527f9ad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tag1consulting/scolta-php/zipball/d10800c16550859cbe8af4111b4ded8e1f771b5f",
-                "reference": "d10800c16550859cbe8af4111b4ded8e1f771b5f",
+                "url": "https://api.github.com/repos/tag1consulting/scolta-php/zipball/8fac0c70d24c06b4e146cfc653af353f3527f9ad",
+                "reference": "8fac0c70d24c06b4e146cfc653af353f3527f9ad",
                 "shasum": ""
             },
             "require": {
@@ -775,11 +775,10 @@
             "suggest": {
                 "ext-intl": "Improves Unicode diacritic normalization quality. Falls back to strtr() mapping without it."
             },
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "1.0.x-dev"
+                    "dev-main": "1.1.x-dev"
                 }
             },
             "autoload": {
@@ -810,7 +809,7 @@
                 "issues": "https://github.com/tag1consulting/scolta-php/issues",
                 "source": "https://github.com/tag1consulting/scolta-php"
             },
-            "time": "2026-07-24T21:22:36+00:00"
+            "time": "2026-08-01T06:55:54+00:00"
         }
     ],
     "packages-dev": [
@@ -3255,10 +3254,8 @@
         }
     ],
     "aliases": [],
-    "minimum-stability": "dev",
-    "stability-flags": {
-        "tag1/scolta-php": 20
-    },
+    "minimum-stability": "stable",
+    "stability-flags": {},
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
