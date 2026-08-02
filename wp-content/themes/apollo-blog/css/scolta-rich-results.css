@@ -1,0 +1,275 @@
+/**
+ * Apollo styling for Scolta's result cards and search-as-you-type dropdown.
+ *
+ * Loaded after the plugin's scolta.css, which is never edited. Two techniques
+ * only: override the documented custom properties, and style the theme's own
+ * apollo-* classes on the markup its renderers emit. No selector here is more
+ * specific than one class.
+ *
+ * The theme had never themed Scolta at all, so the first block below does that
+ * job too: the search UI arrived in the plugin's neutral greys on a cream and
+ * navy page. Everything here is mapped to variables style.css already
+ * declares, so a palette change stays in one file.
+ */
+
+:root {
+  --scolta-primary: var(--navy);
+  --scolta-primary-hover: var(--navy-light);
+  --scolta-accent: var(--orange);
+  --scolta-bg: var(--cream);
+  --scolta-card-bg: #fff;
+  --scolta-text: var(--navy);
+  --scolta-text-muted: var(--gray-text);
+  --scolta-text-light: var(--gray-mid);
+  --scolta-border: var(--gray-light);
+  --scolta-highlight: #f7e3a1;
+  --scolta-badge-bg: var(--cream-dark);
+
+  /* Search-as-you-type. The seven documented knobs, nothing more. */
+  --scolta-sayt-bg: #fff;
+  --scolta-sayt-border: var(--gray-light);
+  --scolta-sayt-shadow: 0 8px 24px rgba(11, 13, 26, 0.18);
+  --scolta-sayt-radius: 2px;
+  --scolta-sayt-max-height: 24rem;
+  --scolta-sayt-active-bg: var(--cream-dark);
+  --scolta-sayt-z-index: 60;
+}
+
+/* --------------------------------------------------------------------------
+ * Dispatch card
+ * ----------------------------------------------------------------------- */
+
+.apollo-result {
+  display: flex;
+  gap: 1.1rem;
+  align-items: flex-start;
+}
+
+/* Fixed box, so the card's height is settled before the photograph arrives
+   and nothing below it moves when it does. 16:9 rather than the square the
+   other demos in this rollout use, because the theme's apollo-card size is a
+   900x480 landscape crop: squaring a launch photograph cuts the rocket out. */
+.apollo-result__thumb {
+  flex: 0 0 auto;
+  display: block;
+  width: 176px;
+  height: 99px;
+  overflow: hidden;
+  border: 1px solid var(--gray-light);
+  background: var(--cream-dark);
+}
+
+.apollo-result__thumb img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* A photograph that fails to load takes its own box with it rather than
+   leaving a hole; the rest of the card is already laid out as text, so
+   nothing else moves. */
+.apollo-result--thumb-failed .apollo-result__thumb {
+  display: none;
+}
+
+.apollo-result__body {
+  min-width: 0;
+  flex: 1 1 auto;
+}
+
+.apollo-result__title {
+  font-family: var(--font-serif);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  line-clamp: 2;
+  overflow: hidden;
+}
+
+/* scolta.css highlights an excerpt's <mark> and leaves a title's to the
+   browser default, so a hit was the theme's amber in the body and vivid
+   browser yellow in the heading right above it. */
+.apollo-result__title mark {
+  background: var(--scolta-highlight, #f7e3a1);
+  color: inherit;
+  padding: 0.05em 0.15em;
+}
+
+.apollo-result__meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0.3rem 0 0.45rem;
+}
+
+/* The date leads the row and is set as a log entry. On an archive written
+   between 1961 and 1975 it is the primary fact about a dispatch, not filing
+   metadata. */
+.apollo-result__date {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+  color: var(--orange-dark);
+  white-space: nowrap;
+}
+
+.apollo-result__badge {
+  font-family: var(--font-sans);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 0.14rem 0.5rem;
+  border: 1px solid var(--gray-light);
+  background: var(--cream-dark);
+  color: var(--gray-text);
+  white-space: nowrap;
+}
+
+.apollo-result__excerpt {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  line-clamp: 3;
+  overflow: hidden;
+  margin: 0;
+}
+
+@media (max-width: 560px) {
+  .apollo-result {
+    gap: 0.75rem;
+  }
+
+  .apollo-result__thumb {
+    width: 104px;
+    height: 59px;
+  }
+}
+
+/* --------------------------------------------------------------------------
+ * Search-as-you-type dropdown
+ *
+ * Layout and rhythm only. The dropdown stays absolutely positioned inside
+ * .scolta-search-input-wrap, so opening and updating it shifts nothing.
+ * ----------------------------------------------------------------------- */
+
+.scolta-sayt {
+  font-family: var(--font-sans);
+  padding: 0.2rem 0;
+}
+
+.scolta-sayt-option {
+  padding: 0.5rem 0.85rem;
+  border-bottom: none;
+  border-left: 3px solid transparent;
+  transition: background-color 0.12s ease, border-color 0.12s ease;
+}
+
+.scolta-sayt-option:hover {
+  background: var(--cream);
+}
+
+.scolta-sayt-option-active {
+  border-left-color: var(--orange);
+}
+
+.scolta-sayt-kind {
+  color: var(--orange);
+  font-size: 0.95rem;
+}
+
+.scolta-sayt-title {
+  font-family: var(--font-serif);
+  font-size: 0.98rem;
+  color: var(--navy);
+}
+
+/* A recent search is history, not a dispatch: sans-serif and italic, so the
+   two kinds of row are told apart without reading the glyph. */
+.scolta-sayt-option-recent .scolta-sayt-kind {
+  color: var(--gray-mid);
+}
+
+.scolta-sayt-option-recent .scolta-sayt-title {
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+.scolta-sayt-excerpt {
+  font-size: 0.8rem;
+  color: var(--gray-text);
+  margin-top: 0.1rem;
+}
+
+/* --------------------------------------------------------------------------
+ * Thumbnailed suggestion row
+ *
+ * Inner markup emitted by the suggestion renderer in
+ * js/scolta-rich-results.js for title suggestions. The option element around
+ * it stays the bundle's, so the rules below never reach past the row's inside.
+ *
+ * Title and excerpt carry the scolta-* class as well as the apollo-* one, so
+ * they inherit the typography set above and these rules add only layout. Same
+ * specificity, resolved by source order — this block is last.
+ * ----------------------------------------------------------------------- */
+
+.apollo-sayt {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+/* Fixed box at the card's 16:9, sized before the image arrives, so a row
+   settles its height at render and the rows under it never move. */
+.apollo-sayt__thumb {
+  flex: 0 0 auto;
+  display: block;
+  width: 56px;
+  height: 32px;
+  overflow: hidden;
+  border: 1px solid var(--gray-light);
+  background: var(--cream-dark);
+}
+
+.apollo-sayt__thumb img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Sized, not drawn. Two dispatches in three have no photograph, so an empty
+   grey rectangle would be the common case; an invisible spacer keeps every
+   title on the same line without painting anything. */
+.apollo-sayt__thumb--empty {
+  border-color: transparent;
+  background: none;
+}
+
+.apollo-sayt__text {
+  min-width: 0;
+  flex: 1 1 auto;
+}
+
+/* One line each, ellipsised. A suggestion is a pointer, not a summary, and a
+   row that wrapped would resize the dropdown on every keystroke. */
+.apollo-sayt__title {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Overrides the glyph gutter scolta.css gives an excerpt: in this row the
+   thumbnail is the gutter, and the text column is already indented. */
+.apollo-sayt__excerpt {
+  display: block;
+  margin-top: 0.05rem;
+  margin-left: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
