@@ -43,3 +43,7 @@ wp-content/uploads/scolta/state/
 vendor/
 .claude/
 wp-content/plugins/plugin-check/
+
+# Vault image originals are a fetch-time working cache (~400 MB).
+# Only the optimized renditions beside them are served and shipped.
+wp-content/uploads/vault/originals/

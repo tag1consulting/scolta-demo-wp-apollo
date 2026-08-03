@@ -696,3 +696,102 @@ img { max-width: 100%; height: auto; display: block; }
     .post-navigation a { max-width: 100%; }
     .nav-next { text-align: left; align-items: flex-start; }
 }
+
+/* =============================================
+   IMAGE VAULT LAYOUTS
+   ============================================= */
+.apollo-fig{margin:2.2rem 0;font-family:Georgia,'Times New Roman',serif;}
+.apollo-fig img{width:100%;height:auto;display:block;}
+.apollo-fig figcaption{font-size:.82rem;line-height:1.4;color:#5a5242;margin-top:.5rem;
+  font-style:italic;}
+.apollo-fig .credit{display:block;font-style:normal;font-size:.68rem;letter-spacing:.03em;
+  text-transform:uppercase;color:#8a8172;margin-top:.25rem;}
+
+/* hero-bleed */
+.apollo-hero{position:relative;margin:0 0 2rem;}
+.apollo-hero img{width:100%;max-height:520px;object-fit:cover;}
+.apollo-hero figcaption{position:absolute;left:0;right:0;bottom:0;margin:0;color:#faf8f0;
+  background:linear-gradient(transparent,rgba(26,26,58,.85));padding:2.5rem 1.2rem .9rem;
+  font-style:normal;}
+.apollo-hero .credit{color:#e7c9a8;}
+
+/* floated single */
+.apollo-fig.right{float:right;width:48%;margin:.3rem 0 1rem 1.8rem;}
+.apollo-fig.left{float:left;width:48%;margin:.3rem 1.8rem 1rem 0;}
+.apollo-fig.right img,.apollo-fig.left img{border:1px solid #d8cfbc;
+  box-shadow:0 2px 0 #efe7d6,0 3px 10px rgba(26,26,58,.12);}
+
+/* postcard */
+.apollo-postcard{width:72%;margin:2.4rem auto;text-align:center;}
+.apollo-postcard img{border:10px solid #faf8f0;outline:1px solid #d8cfbc;
+  box-shadow:0 6px 18px rgba(26,26,58,.18);}
+.apollo-postcard figcaption{font-family:'Courier New',monospace;font-style:normal;
+  font-size:.8rem;color:#1a1a3a;margin-top:.8rem;}
+
+/* polaroid */
+.apollo-polaroid{float:right;width:44%;margin:.4rem 0 1.4rem 1.8rem;
+  background:#fff;padding:.8rem .8rem 2.4rem;transform:rotate(2deg);
+  box-shadow:0 8px 20px rgba(26,26,58,.22);}
+.apollo-polaroid.tl{transform:rotate(-2deg);float:left;margin:.4rem 1.8rem 1.4rem 0;}
+.apollo-polaroid figcaption{font-family:'Segoe Script','Bradley Hand',cursive;
+  text-align:center;font-style:normal;color:#333;margin-top:.6rem;}
+
+/* panorama */
+.apollo-pano{margin:2.6rem 0;}
+.apollo-pano img{width:100%;max-height:360px;object-fit:cover;}
+.apollo-pano figcaption{text-align:right;}
+
+/* stamp */
+.apollo-stamp{float:right;width:210px;margin:.3rem 0 1rem 1.6rem;background:#fff;
+  padding:10px;filter:drop-shadow(0 3px 8px rgba(26,26,58,.2));
+  /* perforated edge via radial mask */
+  -webkit-mask:radial-gradient(circle 5px at 5px 5px,transparent 4px,#000 5px) -5px -5px;}
+.apollo-stamp img{border:1px solid #e4dcca;}
+.apollo-stamp figcaption{text-align:center;font-size:.72rem;}
+
+/* dropcap-inset */
+.apollo-inset{float:left;width:180px;margin:.2rem 1.4rem .6rem 0;}
+.entry-content .has-inset::first-letter{font-family:Georgia,serif;font-size:3.4rem;
+  line-height:.8;float:left;margin:.1rem .55rem 0 0;color:#c2571a;font-weight:700;}
+
+/* duo */
+.apollo-duo{display:grid;grid-template-columns:1fr 1fr;gap:.9rem;margin:2.2rem 0;}
+.apollo-duo figcaption{grid-column:1/-1;}
+
+/* portrait-pull */
+.apollo-portrait{float:right;width:40%;margin:.3rem 0 1rem 1.8rem;}
+.apollo-pullquote{font-family:Georgia,serif;font-size:1.5rem;line-height:1.4;
+  color:#1a1a3a;border-left:4px solid #c2571a;padding-left:1rem;margin:1.6rem 0;font-style:italic;}
+
+/* triptych (filmstrip) */
+.apollo-strip{margin:2.4rem 0;background:#1a1a3a;padding:1.1rem .6rem;border-radius:2px;
+  background-image:repeating-linear-gradient(90deg,#1a1a3a 0 14px,#0d0d20 14px 20px);}
+.apollo-strip .frames{display:grid;grid-template-columns:repeat(3,1fr);gap:.6rem;}
+.apollo-strip img{border:2px solid #faf8f0;}
+.apollo-strip figcaption{color:#e7c9a8;text-align:center;margin-top:.7rem;}
+
+/* gallery / contact sheet */
+.apollo-gallery{display:grid;grid-template-columns:1fr 1fr;gap:1.1rem;margin:2.4rem 0;}
+.apollo-gallery figure{margin:0;}
+.apollo-gallery img{border:1px solid #d8cfbc;box-shadow:0 2px 8px rgba(26,26,58,.12);}
+.apollo-gallery figcaption{margin-top:.4rem;}
+
+/* Credit lines.
+   Only four treatments wrap their figure in .apollo-fig; duo, gallery, hero,
+   panorama, polaroid, postcard, stamp and triptych use their own container, so
+   the .apollo-fig .credit rule above never reached them and the credit ran on
+   from the end of the caption sentence as ordinary text. */
+.apollo-duo .credit,.apollo-gallery .credit,.apollo-hero .credit,
+.apollo-pano .credit,.apollo-polaroid .credit,.apollo-postcard .credit,
+.apollo-stamp .credit,.apollo-strip .credit{
+  display:block;font-style:normal;font-size:.68rem;letter-spacing:.03em;
+  text-transform:uppercase;color:#8a8172;margin-top:.25rem;}
+/* re-assert the two treatments that sit on a dark ground */
+.apollo-hero .credit,.apollo-strip .credit{color:#e7c9a8;}
+
+@media (max-width:640px){
+  .apollo-fig.right,.apollo-fig.left,.apollo-polaroid,.apollo-polaroid.tl,
+  .apollo-portrait,.apollo-stamp,.apollo-inset{float:none;width:100%;margin:1.6rem 0;transform:none;}
+  .apollo-postcard{width:100%;}
+  .apollo-duo,.apollo-gallery,.apollo-strip .frames{grid-template-columns:1fr;}
+}
