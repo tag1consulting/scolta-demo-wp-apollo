@@ -78,6 +78,10 @@
   flex: 1 1 auto;
 }
 
+/* scolta.css sets a title to one nowrap line ellipsised at the edge. A clamp
+   cannot wrap under nowrap, and text-overflow does not apply to a -webkit-box,
+   so the inherited value turned the two lines below into one hard-cut line the
+   moment a thumbnail narrowed the column. Both resets belong to the clamp. */
 .apollo-result__title {
   font-family: var(--font-serif);
   display: -webkit-box;
@@ -85,6 +89,8 @@
   -webkit-box-orient: vertical;
   line-clamp: 2;
   overflow: hidden;
+  white-space: normal;
+  overflow-wrap: anywhere;
 }
 
 /* scolta.css highlights an excerpt's <mark> and leaves a title's to the
