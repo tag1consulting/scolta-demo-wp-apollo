@@ -1,0 +1,1019 @@
+{
+ "sputnik": {
+  "source": "commons",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Sputnik_asm.jpg",
+  "license": "Public domain",
+  "credit": "NSSDC, NASA[1] / Public domain",
+  "asset_url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Sputnik_asm.jpg",
+  "full_kb": 42,
+  "med_kb": 36
+ },
+ "laika": {
+  "source": "commons",
+  "source_url": "https://commons.wikimedia.org/wiki/File:%D0%9B%D0%B0%D0%B9%D0%BA%D0%B0_(%D1%81%D0%BE%D0%B1%D0%B0%D0%BA%D0%B0-%D0%BA%D0%BE%D1%81%D0%BC%D0%BE%D0%BD%D0%B0%D0%B2%D1%82)1.jpg",
+  "license": "Public domain",
+  "credit": "unknown - likely Soviet space program / Public domain",
+  "asset_url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/%D0%9B%D0%B0%D0%B9%D0%BA%D0%B0_%28%D1%81%D0%BE%D0%B1%D0%B0%D0%BA%D0%B0-%D0%BA%D0%BE%D1%81%D0%BC%D0%BE%D0%BD%D0%B0%D0%B2%D1%82%291.jpg",
+  "full_kb": 155,
+  "med_kb": 67
+ },
+ "explorer1": {
+  "source": "commons",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Explorer_1_conference_1958.jpg",
+  "license": "Public domain",
+  "credit": "NASA/JPL / Public domain",
+  "asset_url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Explorer_1_conference_1958.jpg",
+  "full_kb": 202,
+  "med_kb": 82
+ },
+ "tereshkova": {
+  "source": "commons",
+  "source_url": "https://commons.wikimedia.org/wiki/File:RIAN_archive_612748_Valentina_Tereshkova.jpg",
+  "license": "CC BY-SA 3.0",
+  "credit": "Alexander Mokletsov / Александр Моклецов / CC BY-SA 3.0",
+  "asset_url": "https://upload.wikimedia.org/wikipedia/commons/6/61/RIAN_archive_612748_Valentina_Tereshkova.jpg",
+  "full_kb": 109,
+  "med_kb": 101
+ },
+ "leonov-eva": {
+  "source": "commons",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Soviet_Union-1965-Stamp-0.10._Voskhod-2._First_Spacewalk.jpg",
+  "license": "Public domain",
+  "credit": "Public domain",
+  "asset_url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Soviet_Union-1965-Stamp-0.10._Voskhod-2._First_Spacewalk.jpg",
+  "full_kb": 190,
+  "med_kb": 83
+ },
+ "voskhod": {
+  "source": "commons",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Voskhod_1_capsule_on_display,_2016.jpg",
+  "license": "CC BY-SA 3.0",
+  "credit": "Andrew Gray / CC BY-SA 3.0",
+  "asset_url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Voskhod_1_capsule_on_display%2C_2016.jpg",
+  "full_kb": 159,
+  "med_kb": 65
+ },
+ "komarov": {
+  "source": "commons",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Vladimir_Komarov_foto_grupal_grupo_de_cosmonautas_(cropped).jpg",
+  "license": "CC BY-SA 3.0",
+  "credit": "Alexander Mokletsov / Александр Моклецов / CC BY-SA 3.0",
+  "asset_url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Vladimir_Komarov_foto_grupal_grupo_de_cosmonautas_%28cropped%29.jpg",
+  "full_kb": 13,
+  "med_kb": 12
+ },
+ "khrushchev": {
+  "source": "commons",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Nikita_Khruchchev_Colour.jpg",
+  "license": "Public domain",
+  "credit": "derivative work: Militaryace (talk) Nikita_Khrusjtsjov.jpg: Credit: John Fitzgerald Kennedy Library / Public domain",
+  "asset_url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Nikita_Khruchchev_Colour.jpg",
+  "full_kb": 25,
+  "med_kb": 23
+ },
+ "korolev": {
+  "source": "commons",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Sergey_Korolev_with_dog.jpg",
+  "license": "CC BY 4.0",
+  "credit": "Музей космонавтики / Главархив Москвы / CC BY 4.0",
+  "asset_url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Sergey_Korolev_with_dog.jpg",
+  "full_kb": 569,
+  "med_kb": 200
+ },
+ "luna": {
+  "source": "commons",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Luna_1_-_2_Spacecraft.png",
+  "license": "Public domain",
+  "credit": "NASA/NSSDCA (public domain) / Public domain",
+  "asset_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Luna_1_-_2_Spacecraft.png",
+  "full_kb": 37,
+  "med_kb": 36
+ },
+ "zond5": {
+  "source": "commons",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Zond-5_descent_module.jpg",
+  "license": "CC BY 4.0",
+  "credit": "Ndorogov / CC BY 4.0",
+  "asset_url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Zond-5_descent_module.jpg",
+  "full_kb": 274,
+  "med_kb": 269
+ },
+ "salyut": {
+  "source": "commons",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Salyut_1_paper_model.JPG",
+  "license": "CC BY-SA 3.0",
+  "credit": "Godai / CC BY-SA 3.0",
+  "asset_url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Salyut_1_paper_model.JPG",
+  "full_kb": 116,
+  "med_kb": 34
+ },
+ "soyuz11": {
+  "source": "commons",
+  "source_url": "https://commons.wikimedia.org/wiki/File:The_Soviet_Union_1971_CPA_4060_stamp_(Cosmonauts_Georgy_Dobrovolsky,_Vladislav_Volkov_and_Viktor_Patsayev)_cancelled.jpg",
+  "license": "Public domain",
+  "credit": "Scanned and processed by Andrei Sdobnikov / Public domain",
+  "asset_url": "https://upload.wikimedia.org/wikipedia/commons/3/33/The_Soviet_Union_1971_CPA_4060_stamp_%28Cosmonauts_Georgy_Dobrovolsky%2C_Vladislav_Volkov_and_Viktor_Patsayev%29_cancelled.jpg",
+  "full_kb": 77,
+  "med_kb": 74
+ },
+ "u2": {
+  "source": "commons",
+  "source_url": "https://commons.wikimedia.org/wiki/File:U-2_High_Flight_(4819972935).jpg",
+  "license": "CC BY 2.0",
+  "credit": "Christopher Michel / CC BY 2.0",
+  "asset_url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/U-2_High_Flight_%284819972935%29.jpg",
+  "full_kb": 124,
+  "med_kb": 83
+ },
+ "cuban-missile": {
+  "source": "commons",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Cuban_missiles.jpg",
+  "license": "Public domain",
+  "credit": "see above / Public domain",
+  "asset_url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Cuban_missiles.jpg",
+  "full_kb": 290,
+  "med_kb": 219
+ },
+ "jfk-portrait": {
+  "source": "commons",
+  "source_url": "https://commons.wikimedia.org/wiki/File:John_F_Kennedy_Official_Portrait.jpg",
+  "license": "Public domain",
+  "credit": "Aaron Shikler / Public domain",
+  "asset_url": "https://upload.wikimedia.org/wikipedia/commons/2/21/John_F_Kennedy_Official_Portrait.jpg",
+  "full_kb": 796,
+  "med_kb": 224
+ },
+ "icbm": {
+  "source": "commons",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Atlas_missile_test_launch.jpg",
+  "license": "Public domain",
+  "credit": "U.S. Air Force photo / Public domain",
+  "asset_url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Atlas_missile_test_launch.jpg",
+  "full_kb": 156,
+  "med_kb": 88
+ },
+ "mercury-seven": {
+  "source": "nasa",
+  "source_url": "https://images.nasa.gov/details/s62-08774",
+  "license": "Public Domain",
+  "credit": "NASA — Public Domain",
+  "asset_url": "http://images-assets.nasa.gov/image/s62-08774/s62-08774~orig.jpg",
+  "full_kb": 405,
+  "med_kb": 176
+ },
+ "ham-chimp": {
+  "source": "nasa",
+  "source_url": "https://images.nasa.gov/details/6100114",
+  "license": "Public Domain",
+  "credit": "NASA — Public Domain",
+  "asset_url": "http://images-assets.nasa.gov/image/6100114/6100114~orig.jpg",
+  "full_kb": 315,
+  "med_kb": 126
+ },
+ "enos-chimp": {
+  "source": "nasa",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Chimpanzee_Enos.jpg",
+  "license": "Public domain",
+  "credit": "NASA / Public domain",
+  "asset_url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Chimpanzee_Enos.jpg",
+  "full_kb": 491,
+  "med_kb": 214
+ },
+ "shepard-freedom7": {
+  "source": "nasa",
+  "source_url": "https://images.nasa.gov/details/6100884",
+  "license": "Public Domain",
+  "credit": "NASA — Public Domain",
+  "asset_url": "http://images-assets.nasa.gov/image/6100884/6100884~orig.jpg",
+  "full_kb": 734,
+  "med_kb": 252
+ },
+ "liberty-bell7": {
+  "source": "commons",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Retrieval_attempt_of_Liberty_Bell_7_MSFC-6116424.jpg",
+  "license": "Public domain",
+  "credit": "NASA / Public domain",
+  "asset_url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Retrieval_attempt_of_Liberty_Bell_7_MSFC-6116424.jpg",
+  "full_kb": 456,
+  "med_kb": 183
+ },
+ "glenn-friendship7": {
+  "source": "commons",
+  "source_url": "https://commons.wikimedia.org/wiki/File:John_Glenn_enters_his_Friendship_7_capsule_-_GPN-2006-000027.jpg",
+  "license": "Public domain",
+  "credit": "NASA / Public domain",
+  "asset_url": "https://upload.wikimedia.org/wikipedia/commons/2/20/John_Glenn_enters_his_Friendship_7_capsule_-_GPN-2006-000027.jpg",
+  "full_kb": 164,
+  "med_kb": 112
+ },
+ "carpenter": {
+  "source": "nasa",
+  "source_url": "https://images.nasa.gov/details/s62-04018",
+  "license": "Public Domain",
+  "credit": "NASA — Public Domain",
+  "asset_url": "http://images-assets.nasa.gov/image/s62-04018/s62-04018~orig.jpg",
+  "full_kb": 282,
+  "med_kb": 118
+ },
+ "schirra": {
+  "source": "nasa",
+  "source_url": "https://images.nasa.gov/details/8892072",
+  "license": "Public Domain",
+  "credit": "NASA — Public Domain",
+  "asset_url": "http://images-assets.nasa.gov/image/8892072/8892072~orig.jpg",
+  "full_kb": 571,
+  "med_kb": 208
+ },
+ "cooper": {
+  "source": "nasa",
+  "source_url": "https://images.nasa.gov/details/s63-06259",
+  "license": "Public Domain",
+  "credit": "NASA — Public Domain",
+  "asset_url": "http://images-assets.nasa.gov/image/s63-06259/s63-06259~orig.jpg",
+  "full_kb": 277,
+  "med_kb": 117
+ },
+ "mercury-atlas": {
+  "source": "commons",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Launch_of_Mercury-Atlas_-_GPN-2003-00036.jpg",
+  "license": "Public domain",
+  "credit": "NASA / Public domain",
+  "asset_url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Launch_of_Mercury-Atlas_-_GPN-2003-00036.jpg",
+  "full_kb": 264,
+  "med_kb": 97
+ },
+ "gemini-titan": {
+  "source": "commons",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Gemini-Titan-II_launch_vehicle_-1_liftoff_at_Cape_Kennedy,_Florida_(S64-21560).jpg",
+  "license": "Public domain",
+  "credit": "NASA Johnson Space Center / Public domain",
+  "asset_url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Gemini-Titan-II_launch_vehicle_-1_liftoff_at_Cape_Kennedy%2C_Florida_%28S64-21560%29.jpg",
+  "full_kb": 442,
+  "med_kb": 158
+ },
+ "ed-white-eva": {
+  "source": "nasa",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Astronaut_Edward_White_first_American_spacewalk_Gemini_4.jpg",
+  "license": "Public domain",
+  "credit": "NASA / Public domain",
+  "asset_url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Astronaut_Edward_White_first_American_spacewalk_Gemini_4.jpg",
+  "full_kb": 156,
+  "med_kb": 81
+ },
+ "grissom-young-g3": {
+  "source": "nasa",
+  "source_url": "https://images.nasa.gov/details/S65-21520",
+  "license": "Public Domain",
+  "credit": "NASA — Public Domain",
+  "asset_url": "http://images-assets.nasa.gov/image/S65-21520/S65-21520~orig.jpg",
+  "full_kb": 171,
+  "med_kb": 65
+ },
+ "gemini6-7": {
+  "source": "nasa",
+  "source_url": "https://images.nasa.gov/details/S65-63113",
+  "license": "Public Domain",
+  "credit": "NASA — Public Domain",
+  "asset_url": "http://images-assets.nasa.gov/image/S65-63113/S65-63113~orig.jpg",
+  "full_kb": 110,
+  "med_kb": 39
+ },
+ "gemini8-agena": {
+  "source": "commons",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Agena_Target_Docking_vehicle_seen_from_Gemini_8_spacecraft_(s66-25778).jpg",
+  "license": "Public domain",
+  "credit": "NASA Johnson Space Center / Public domain",
+  "asset_url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Agena_Target_Docking_vehicle_seen_from_Gemini_8_spacecraft_%28s66-25778%29.jpg",
+  "full_kb": 51,
+  "med_kb": 20
+ },
+ "agena": {
+  "source": "commons",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Gemini_10_docked_with_Agena.jpg",
+  "license": "Public domain",
+  "credit": "NASA / Public domain",
+  "asset_url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Gemini_10_docked_with_Agena.jpg",
+  "full_kb": 126,
+  "med_kb": 55
+ },
+ "aldrin-g12": {
+  "source": "nasa",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Buzz_Aldrin_self-photograph_during_Gemini_12_EVA_(S66-62926).jpg",
+  "license": "Public domain",
+  "credit": "NASA/Buzz Aldrin / Public domain",
+  "asset_url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Buzz_Aldrin_self-photograph_during_Gemini_12_EVA_%28S66-62926%29.jpg",
+  "full_kb": 138,
+  "med_kb": 63
+ },
+ "apollo1-crew": {
+  "source": "commons",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Apollo_1_Prime_Crew_-_GPN-2000-001159.jpg",
+  "license": "Public domain",
+  "credit": "NASA / Public domain",
+  "asset_url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Apollo_1_Prime_Crew_-_GPN-2000-001159.jpg",
+  "full_kb": 270,
+  "med_kb": 113
+ },
+ "apollo1-fire": {
+  "source": "nasa",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Apollo_1_fire.jpg",
+  "license": "Public domain",
+  "credit": "NASA / Public domain",
+  "asset_url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Apollo_1_fire.jpg",
+  "full_kb": 299,
+  "med_kb": 128
+ },
+ "apollo1-suited": {
+  "source": "nasa",
+  "source_url": "https://commons.wikimedia.org/wiki/File:McDivitt,_Scott_and_Schweickart_in_preliminary_training_for_Apollo_AS-258_mission.jpg",
+  "license": "Public domain",
+  "credit": "NASA, scanned by Ed Hengeveld / Public domain",
+  "asset_url": "https://upload.wikimedia.org/wikipedia/commons/1/15/McDivitt%2C_Scott_and_Schweickart_in_preliminary_training_for_Apollo_AS-258_mission.jpg",
+  "full_kb": 138,
+  "med_kb": 133
+ },
+ "saturn-v-launch": {
+  "source": "commons",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Launch_of_the_Saturn_V_with_Apollo_11_(48300001196).jpg",
+  "license": "Public domain",
+  "credit": "Cygni_18 / Public domain",
+  "asset_url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Launch_of_the_Saturn_V_with_Apollo_11_%2848300001196%29.jpg",
+  "full_kb": 487,
+  "med_kb": 205
+ },
+ "saturn-v-rollout": {
+  "source": "commons",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Apollo_11_Saturn_V_during_rollout_(48257592861).jpg",
+  "license": "Public domain",
+  "credit": "NASA / Public domain",
+  "asset_url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Apollo_11_Saturn_V_during_rollout_%2848257592861%29.jpg",
+  "full_kb": 526,
+  "med_kb": 183
+ },
+ "f1-engine": {
+  "source": "commons",
+  "source_url": "https://commons.wikimedia.org/wiki/File:S-IC_engines_and_Von_Braun.jpg",
+  "license": "Public domain",
+  "credit": "NASA / Public domain",
+  "asset_url": "https://upload.wikimedia.org/wikipedia/commons/1/16/S-IC_engines_and_Von_Braun.jpg",
+  "full_kb": 393,
+  "med_kb": 169
+ },
+ "agc-dsky": {
+  "source": "commons",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Apollo_display_and_keyboard_unit_(DSKY)_used_on_F-8_DFBW_DVIDS683588.jpg",
+  "license": "Public domain",
+  "credit": "NASA/Dennis Taylor / Public domain",
+  "asset_url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Apollo_display_and_keyboard_unit_%28DSKY%29_used_on_F-8_DFBW_DVIDS683588.jpg",
+  "full_kb": 217,
+  "med_kb": 95
+ },
+ "rope-memory": {
+  "source": "commons",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Apollo_guidiance_computer_ferrit_core_memory.jpg",
+  "license": "CC BY-SA 3.0",
+  "credit": "Nova13 / CC BY-SA 3.0",
+  "asset_url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Apollo_guidiance_computer_ferrit_core_memory.jpg",
+  "full_kb": 458,
+  "med_kb": 178
+ },
+ "mission-control": {
+  "source": "nasa",
+  "source_url": "https://images.nasa.gov/details/S70-35471",
+  "license": "Public Domain",
+  "credit": "NASA — Public Domain",
+  "asset_url": "http://images-assets.nasa.gov/image/S70-35471/S70-35471~orig.jpg",
+  "full_kb": 168,
+  "med_kb": 73
+ },
+ "dsn": {
+  "source": "nasa",
+  "source_url": "https://images.nasa.gov/details/PIA23214",
+  "license": "Public Domain",
+  "credit": "NASA/NASA/JPL-Caltech — Public Domain",
+  "asset_url": "http://images-assets.nasa.gov/image/PIA23214/PIA23214~orig.jpg",
+  "full_kb": 242,
+  "med_kb": 93
+ },
+ "tv-camera": {
+  "source": "nasa",
+  "source_url": "https://images.nasa.gov/details/S72-35610",
+  "license": "Public Domain",
+  "credit": "NASA — Public Domain",
+  "asset_url": "http://images-assets.nasa.gov/image/S72-35610/S72-35610~orig.jpg",
+  "full_kb": 327,
+  "med_kb": 119
+ },
+ "lm-diagram": {
+  "source": "nasa",
+  "source_url": "https://images.nasa.gov/details/S69-15690",
+  "license": "Public Domain",
+  "credit": "NASA — Public Domain",
+  "asset_url": "http://images-assets.nasa.gov/image/S69-15690/S69-15690~orig.jpg",
+  "full_kb": 393,
+  "med_kb": 175
+ },
+ "vab": {
+  "source": "nasa",
+  "source_url": "https://images.nasa.gov/details/6760459",
+  "license": "Public Domain",
+  "credit": "NASA — Public Domain",
+  "asset_url": "http://images-assets.nasa.gov/image/6760459/6760459~orig.jpg",
+  "full_kb": 464,
+  "med_kb": 202
+ },
+ "surveyor": {
+  "source": "nasa",
+  "source_url": "https://images.nasa.gov/details/S69-55553",
+  "license": "Public Domain",
+  "credit": "NASA — Public Domain",
+  "asset_url": "http://images-assets.nasa.gov/image/S69-55553/S69-55553~orig.jpg",
+  "full_kb": 319,
+  "med_kb": 113
+ },
+ "lunar-orbiter": {
+  "source": "commons",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Earthrise_23_Aug_1966.jpg",
+  "license": "Public domain",
+  "credit": "NASA / Public domain",
+  "asset_url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Earthrise_23_Aug_1966.jpg",
+  "full_kb": 412,
+  "med_kb": 180
+ },
+ "ranger7": {
+  "source": "commons",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Ranger7_PIA02975.jpg",
+  "license": "Public domain",
+  "credit": "NASA / Public domain",
+  "asset_url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Ranger7_PIA02975.jpg",
+  "full_kb": 192,
+  "med_kb": 171
+ },
+ "mariner4": {
+  "source": "nasa",
+  "source_url": "https://images.nasa.gov/details/PIA14032",
+  "license": "Public Domain",
+  "credit": "NASA/NASA/JPL-Caltech/Dan Goods — Public Domain",
+  "asset_url": "http://images-assets.nasa.gov/image/PIA14032/PIA14032~orig.jpg",
+  "full_kb": 251,
+  "med_kb": 180
+ },
+ "mariner9": {
+  "source": "nasa",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Nix_Olympica_Identified_by_Mariner_9_on_Mars_Approach_(7651156590).jpg",
+  "license": "Public domain",
+  "credit": "NASA on The Commons / Public domain",
+  "asset_url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Nix_Olympica_Identified_by_Mariner_9_on_Mars_Approach_%287651156590%29.jpg",
+  "full_kb": 113,
+  "med_kb": 30
+ },
+ "pioneer10": {
+  "source": "commons",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Pioneer10-plaque.jpg",
+  "license": "Public domain",
+  "credit": "Designed by Carl Sagan and Frank Drake. Artwork prepared by Linda Salzman Sagan. Photograph by NASA Ames Research Center (NASA-ARC) / Public domain",
+  "asset_url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Pioneer10-plaque.jpg",
+  "full_kb": 241,
+  "med_kb": 103
+ },
+ "echo1": {
+  "source": "nasa",
+  "source_url": "https://images.nasa.gov/details/LRC-1958-B701_P-03600",
+  "license": "Public Domain",
+  "credit": "NASA/NACA — Public Domain",
+  "asset_url": "http://images-assets.nasa.gov/image/LRC-1958-B701_P-03600/LRC-1958-B701_P-03600~large.jpg",
+  "full_kb": 535,
+  "med_kb": 269
+ },
+ "telstar": {
+  "source": "commons",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Telstar_1_replica.jpg",
+  "license": "CC BY 4.0",
+  "credit": "This file comes from Science Museum Collections, a website operated by Science Museum Group, a non-departmental public body in the UK. This tag does not indicat / CC BY 4.0",
+  "asset_url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Telstar_1_replica.jpg",
+  "full_kb": 204,
+  "med_kb": 155
+ },
+ "tiros1": {
+  "source": "nasa",
+  "source_url": "https://commons.wikimedia.org/wiki/File:TIROS-1_satellite_image_1_April_1960.png",
+  "license": "Public domain",
+  "credit": "National Aeronautics and Space Administration image from TIROS-1 weather satellite / Public domain",
+  "asset_url": "https://upload.wikimedia.org/wikipedia/commons/1/13/TIROS-1_satellite_image_1_April_1960.png",
+  "full_kb": 103,
+  "med_kb": 98
+ },
+ "apollo8-crew": {
+  "source": "nasa",
+  "source_url": "https://images.nasa.gov/details/6972224",
+  "license": "Public Domain",
+  "credit": "NASA — Public Domain",
+  "asset_url": "http://images-assets.nasa.gov/image/6972224/6972224~orig.jpg",
+  "full_kb": 337,
+  "med_kb": 148
+ },
+ "earthrise": {
+  "source": "nasa",
+  "source_url": "https://images.nasa.gov/details/GSFC_20171208_Archive_e000496",
+  "license": "Public Domain",
+  "credit": "NASA — Public Domain",
+  "asset_url": "http://images-assets.nasa.gov/image/GSFC_20171208_Archive_e000496/GSFC_20171208_Archive_e000496~small.jpg",
+  "full_kb": 42,
+  "med_kb": 42
+ },
+ "apollo9-spider": {
+  "source": "nasa",
+  "source_url": "https://images.nasa.gov/details/as09-21-3197",
+  "license": "Public Domain",
+  "credit": "NASA — Public Domain",
+  "asset_url": "http://images-assets.nasa.gov/image/as09-21-3197/as09-21-3197~orig.jpg",
+  "full_kb": 213,
+  "med_kb": 92
+ },
+ "apollo10-snoopy": {
+  "source": "commons",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Apollo_10_Lunar_Module_Rendezvous.jpg",
+  "license": "Public domain",
+  "credit": "NASA / Public domain",
+  "asset_url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Apollo_10_Lunar_Module_Rendezvous.jpg",
+  "full_kb": 239,
+  "med_kb": 102
+ },
+ "apollo11-crew": {
+  "source": "nasa",
+  "source_url": "https://images.nasa.gov/details/8903695",
+  "license": "Public Domain",
+  "credit": "NASA — Public Domain",
+  "asset_url": "http://images-assets.nasa.gov/image/8903695/8903695~orig.jpg",
+  "full_kb": 292,
+  "med_kb": 120
+ },
+ "apollo11-eagle": {
+  "source": "commons",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Eagle_In_Lunar_Orbit_-_GPN-2000-001210.jpg",
+  "license": "Public domain",
+  "credit": "NASA Michael Collins / Public domain",
+  "asset_url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Eagle_In_Lunar_Orbit_-_GPN-2000-001210.jpg",
+  "full_kb": 134,
+  "med_kb": 54
+ },
+ "armstrong-moon": {
+  "source": "commons",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Neil_Armstrong_On_The_Moon_-_GPN-2000-001209.jpg",
+  "license": "Public domain",
+  "credit": "NASA / Public domain",
+  "asset_url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Neil_Armstrong_On_The_Moon_-_GPN-2000-001209.jpg",
+  "full_kb": 278,
+  "med_kb": 109
+ },
+ "aldrin-moon": {
+  "source": "nasa",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Aldrin_Apollo_11_original.jpg",
+  "license": "Public domain",
+  "credit": "Neil Armstrong / Public domain",
+  "asset_url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Aldrin_Apollo_11_original.jpg",
+  "full_kb": 387,
+  "med_kb": 176
+ },
+ "aldrin-flag": {
+  "source": "nasa",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Aldrin_Apollo_11_original.jpg",
+  "license": "Public domain",
+  "credit": "Neil Armstrong / Public domain",
+  "asset_url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Aldrin_Apollo_11_original.jpg",
+  "full_kb": 387,
+  "med_kb": 176
+ },
+ "bootprint": {
+  "source": "nasa",
+  "source_url": "https://images.nasa.gov/details/as11-40-5880",
+  "license": "Public Domain",
+  "credit": "NASA — Public Domain",
+  "asset_url": "http://images-assets.nasa.gov/image/as11-40-5880/as11-40-5880~orig.jpg",
+  "full_kb": 335,
+  "med_kb": 152
+ },
+ "collins": {
+  "source": "commons",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Michael_Collins_(S69-31742,_restoration).jpg",
+  "license": "Public domain",
+  "credit": "NASA; restored by Coffeeandcrumbs / Public domain",
+  "asset_url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Michael_Collins_%28S69-31742%2C_restoration%29.jpg",
+  "full_kb": 309,
+  "med_kb": 126
+ },
+ "mqf": {
+  "source": "commons",
+  "source_url": "https://commons.wikimedia.org/wiki/File:President_Nixon_welcomes_the_Apollo_11_astronauts_aboard_the_U.S.S._Hornet.jpg",
+  "license": "Public domain",
+  "credit": "NASA / Public domain",
+  "asset_url": "https://upload.wikimedia.org/wikipedia/commons/8/87/President_Nixon_welcomes_the_Apollo_11_astronauts_aboard_the_U.S.S._Hornet.jpg",
+  "full_kb": 380,
+  "med_kb": 149
+ },
+ "apollo12-conrad": {
+  "source": "commons",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Astronaut_Charles_Conrad_examines_Surveyor_3.jpg",
+  "license": "Public domain",
+  "credit": "NASA/Al Bean / Public domain",
+  "asset_url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Astronaut_Charles_Conrad_examines_Surveyor_3.jpg",
+  "full_kb": 332,
+  "med_kb": 131
+ },
+ "apollo13-sm": {
+  "source": "nasa",
+  "source_url": "https://images.nasa.gov/details/7010516",
+  "license": "Public Domain",
+  "credit": "NASA — Public Domain",
+  "asset_url": "http://images-assets.nasa.gov/image/7010516/7010516~orig.jpg",
+  "full_kb": 139,
+  "med_kb": 44
+ },
+ "apollo13-mailbox": {
+  "source": "nasa",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Apollo_13_Mailbox_at_Mission_Control.jpg",
+  "license": "Public domain",
+  "credit": "NASA / Public domain",
+  "asset_url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Apollo_13_Mailbox_at_Mission_Control.jpg",
+  "full_kb": 251,
+  "med_kb": 101
+ },
+ "apollo13-crew": {
+  "source": "nasa",
+  "source_url": "https://images.nasa.gov/details/S70-15511",
+  "license": "Public Domain",
+  "credit": "NASA — Public Domain",
+  "asset_url": "http://images-assets.nasa.gov/image/S70-15511/S70-15511~orig.jpg",
+  "full_kb": 227,
+  "med_kb": 87
+ },
+ "shepard-a14": {
+  "source": "nasa",
+  "source_url": "https://images.nasa.gov/details/as14_66_09232",
+  "license": "Public Domain",
+  "credit": "NASA — Public Domain",
+  "asset_url": "http://images-assets.nasa.gov/image/as14_66_09232/as14_66_09232~orig.jpg",
+  "full_kb": 189,
+  "med_kb": 83
+ },
+ "apollo14-antares": {
+  "source": "commons",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Apollo_14_Lunar_Module_(LM)_on_the_moon.jpg",
+  "license": "Public domain",
+  "credit": "NASA / Public domain",
+  "asset_url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Apollo_14_Lunar_Module_%28LM%29_on_the_moon.jpg",
+  "full_kb": 357,
+  "med_kb": 152
+ },
+ "apollo15-rover": {
+  "source": "commons",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Astronaut_James_Irwin_works_at_Lunar_Roving_Vehicle_during_Apollo_15_EVA_(as15-86-11603).jpg",
+  "license": "Public domain",
+  "credit": "NASA Johnson Space Center / Public domain",
+  "asset_url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Astronaut_James_Irwin_works_at_Lunar_Roving_Vehicle_during_Apollo_15_EVA_%28as15-86-11603%29.jpg",
+  "full_kb": 335,
+  "med_kb": 140
+ },
+ "genesis-rock": {
+  "source": "nasa",
+  "source_url": "https://images.nasa.gov/details/S71-42955",
+  "license": "Public Domain",
+  "credit": "NASA — Public Domain",
+  "asset_url": "http://images-assets.nasa.gov/image/S71-42955/S71-42955~orig.jpg",
+  "full_kb": 281,
+  "med_kb": 107
+ },
+ "irwin-flag": {
+  "source": "nasa",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Apollo_15_flag,_rover,_LM,_Irwin.jpg",
+  "license": "Public domain",
+  "credit": "Astronaut David R. Scott, Apollo 15 commander. / Public domain",
+  "asset_url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Apollo_15_flag%2C_rover%2C_LM%2C_Irwin.jpg",
+  "full_kb": 494,
+  "med_kb": 218
+ },
+ "hadley": {
+  "source": "commons",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Telephoto_view_across_Hadley_Rille_photographed_during_Apollo_15_EVA_(as15-89-12100).jpg",
+  "license": "Public domain",
+  "credit": "NASA Johnson Space Center / Public domain",
+  "asset_url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Telephoto_view_across_Hadley_Rille_photographed_during_Apollo_15_EVA_%28as15-89-12100%29.jpg",
+  "full_kb": 306,
+  "med_kb": 125
+ },
+ "apollo16-young": {
+  "source": "nasa",
+  "source_url": "https://commons.wikimedia.org/wiki/File:John_W._Young_on_the_Moon.jpg",
+  "license": "Public domain",
+  "credit": "Charlie Duke / Public domain",
+  "asset_url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/John_W._Young_on_the_Moon.jpg",
+  "full_kb": 416,
+  "med_kb": 175
+ },
+ "descartes": {
+  "source": "commons",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Young_and_Rover_on_the_Descartes_-_GPN-2000-001133.jpg",
+  "license": "Public domain",
+  "credit": "NASA Charles M. Duke Jr. / Public domain",
+  "asset_url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Young_and_Rover_on_the_Descartes_-_GPN-2000-001133.jpg",
+  "full_kb": 469,
+  "med_kb": 184
+ },
+ "apollo17-night": {
+  "source": "nasa",
+  "source_url": "https://images.nasa.gov/details/S72-54814",
+  "license": "Public Domain",
+  "credit": "NASA — Public Domain",
+  "asset_url": "http://images-assets.nasa.gov/image/S72-54814/S72-54814~orig.jpg",
+  "full_kb": 267,
+  "med_kb": 92
+ },
+ "cernan-rover": {
+  "source": "commons",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Apollo_17_Cernan_on_moon.jpg",
+  "license": "Public domain",
+  "credit": "NASA / Harrison H. Schmitt / Public domain",
+  "asset_url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Apollo_17_Cernan_on_moon.jpg",
+  "full_kb": 333,
+  "med_kb": 133
+ },
+ "orange-soil": {
+  "source": "nasa",
+  "source_url": "https://images.nasa.gov/details/as17-137-20989",
+  "license": "Public Domain",
+  "credit": "NASA — Public Domain",
+  "asset_url": "http://images-assets.nasa.gov/image/as17-137-20989/as17-137-20989~orig.jpg",
+  "full_kb": 489,
+  "med_kb": 221
+ },
+ "schmitt-earth": {
+  "source": "nasa",
+  "source_url": "https://images.nasa.gov/details/as17-134-20466",
+  "license": "Public Domain",
+  "credit": "NASA — Public Domain",
+  "asset_url": "http://images-assets.nasa.gov/image/as17-134-20466/as17-134-20466~orig.jpg",
+  "full_kb": 210,
+  "med_kb": 85
+ },
+ "skylab": {
+  "source": "commons",
+  "source_url": "https://commons.wikimedia.org/wiki/File:View_of_Skylab_space_station_cluster_in_Earth_orbit_from_CSM_(sl4-143-4707).jpg",
+  "license": "Public domain",
+  "credit": "NASA Johnson Space Center / Public domain",
+  "asset_url": "https://upload.wikimedia.org/wikipedia/commons/9/97/View_of_Skylab_space_station_cluster_in_Earth_orbit_from_CSM_%28sl4-143-4707%29.jpg",
+  "full_kb": 435,
+  "med_kb": 180
+ },
+ "newspaper-moon": {
+  "source": "commons",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Land_on_the_Moon_7_21_1969-repair.jpg",
+  "license": "Public domain",
+  "credit": "Jack Weir (1928-2005) / Public domain",
+  "asset_url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Land_on_the_Moon_7_21_1969-repair.jpg",
+  "full_kb": 332,
+  "med_kb": 147
+ },
+ "starfield": {
+  "source": "commons",
+  "source_url": "https://commons.wikimedia.org/wiki/File:036_Milky_Way_during_Perseids_seen_from_Oeschinensee_with_water_reflections_Photo_by_Giles_Laurent.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "Giles Laurent / CC BY-SA 4.0",
+  "asset_url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/036_Milky_Way_during_Perseids_seen_from_Oeschinensee_with_water_reflections_Photo_by_Giles_Laurent.jpg",
+  "full_kb": 742,
+  "med_kb": 230
+ },
+ "full-moon": {
+  "source": "commons",
+  "source_url": "https://commons.wikimedia.org/wiki/File:110814_full_moon_-_Flickr_-_odako1.jpg",
+  "license": "CC BY 2.0",
+  "credit": "Koichi Oda / CC BY 2.0",
+  "asset_url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/110814_full_moon_-_Flickr_-_odako1.jpg",
+  "full_kb": 26,
+  "med_kb": 16
+ },
+ "rice-speech": {
+  "source": "commons",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Kennedy_at_Rice_University_-_GPN-2000-001618.jpg",
+  "license": "Public domain",
+  "credit": "NASA / Public domain",
+  "asset_url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Kennedy_at_Rice_University_-_GPN-2000-001618.jpg",
+  "full_kb": 462,
+  "med_kb": 199
+ },
+ "vab-factory": {
+  "source": "nasa",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Space_Launch_System_Core_Stage_Assembly.jpg",
+  "license": "Public domain",
+  "credit": "NASA/Eric Bordelon / Public domain",
+  "asset_url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Space_Launch_System_Core_Stage_Assembly.jpg",
+  "full_kb": 357,
+  "med_kb": 147
+ },
+ "deke-slayton": {
+  "source": "nasa",
+  "source_url": "https://images.nasa.gov/details/LRC-1959-B701_P-02365",
+  "license": "Public Domain",
+  "credit": "NASA — Public Domain",
+  "asset_url": "http://images-assets.nasa.gov/image/LRC-1959-B701_P-02365/LRC-1959-B701_P-02365~large.jpg",
+  "full_kb": 270,
+  "med_kb": 151
+ },
+ "scientist-geology": {
+  "source": "nasa",
+  "source_url": "https://images.nasa.gov/details/S70-53300",
+  "license": "Public Domain",
+  "credit": "NASA — Public Domain",
+  "asset_url": "http://images-assets.nasa.gov/image/S70-53300/S70-53300~orig.jpg",
+  "full_kb": 412,
+  "med_kb": 163
+ },
+ "schmitt-scientist": {
+  "source": "commons",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Harrison_H._Schmitt.jpg",
+  "license": "Public domain",
+  "credit": "NASA / Public domain",
+  "asset_url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Harrison_H._Schmitt.jpg",
+  "full_kb": 451,
+  "med_kb": 166
+ },
+ "vanguard-fail": {
+  "source": "commons",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Vanguard_rocket_explodes.jpg",
+  "license": "Public domain",
+  "credit": "U.S. Navy / Public domain",
+  "asset_url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Vanguard_rocket_explodes.jpg",
+  "full_kb": 302,
+  "med_kb": 130
+ },
+ "gagarin": {
+  "source": "commons",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Yuri_Gagarin_(1961)_-_Restoration.jpg",
+  "license": "Public domain",
+  "credit": "Arto Jousi / /Suomen valokuvataiteen museo / Alma Media / Uuden Suomen kokoelma; Restored by Adam Cuerden / Public domain",
+  "asset_url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Yuri_Gagarin_%281961%29_-_Restoration.jpg",
+  "full_kb": 434,
+  "med_kb": 177
+ },
+ "n1": {
+  "source": "commons",
+  "source_url": "https://commons.wikimedia.org/wiki/File:N1_1M1_mockup_on_the_launch_pad_at_the_Baikonur_Cosmodrome_in_late_1967.jpg",
+  "license": "Public domain",
+  "credit": "National Reconnaissance Office / Public domain",
+  "asset_url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/N1_1M1_mockup_on_the_launch_pad_at_the_Baikonur_Cosmodrome_in_late_1967.jpg",
+  "full_kb": 244,
+  "med_kb": 217
+ },
+ "cernan-eva": {
+  "source": "commons",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Gemini_IX_Mission_Image_-_EVA_-_DPLA_-_b4e04a97ad8d5a2ba81c79aff406cca1.jpg",
+  "license": "Public domain",
+  "credit": "National Aeronautics and Space Administration. Lyndon B. Johnson Space Center. Information Systems Directorate. Photographic and Digital Laboratory. 2/17/1973-2 / Public domain",
+  "asset_url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Gemini_IX_Mission_Image_-_EVA_-_DPLA_-_b4e04a97ad8d5a2ba81c79aff406cca1.jpg",
+  "full_kb": 130,
+  "med_kb": 54
+ },
+ "gemini11-earth": {
+  "source": "commons",
+  "source_url": "https://commons.wikimedia.org/wiki/File:GEMINI-TITAN_(GT)-11_-_EARTH_SKY_-_OUTER_SPACE_(s66-54706).jpg",
+  "license": "Public domain",
+  "credit": "NASA Johnson Space Center / N/A / Public domain",
+  "asset_url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/GEMINI-TITAN_%28GT%29-11_-_EARTH_SKY_-_OUTER_SPACE_%28s66-54706%29.jpg",
+  "full_kb": 300,
+  "med_kb": 122
+ },
+ "spacesuit": {
+  "source": "commons",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Apollo_A7L_spacesuit,_worn_by_Alan_Shepard,_Apollo_14_mission,_ILC_Industries_-_Kennedy_Space_Center_-_Cape_Canaveral,_Florida_-_DSC02887.jpg",
+  "license": "CC0",
+  "credit": "Daderot / CC0",
+  "asset_url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Apollo_A7L_spacesuit%2C_worn_by_Alan_Shepard%2C_Apollo_14_mission%2C_ILC_Industries_-_Kennedy_Space_Center_-_Cape_Canaveral%2C_Florida_-_DSC02887.jpg",
+  "full_kb": 329,
+  "med_kb": 149
+ },
+ "reentry": {
+  "source": "commons",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Endeavour_nears_splashdown_-_GPN-2000-001121.jpg",
+  "license": "Public domain",
+  "credit": "NASA / Public domain",
+  "asset_url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Endeavour_nears_splashdown_-_GPN-2000-001121.jpg",
+  "full_kb": 325,
+  "med_kb": 119
+ },
+ "world-tour": {
+  "source": "commons",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Apollo_11_ticker_tape_parade_2.jpg",
+  "license": "Public domain",
+  "credit": "NASA / Public domain",
+  "asset_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Apollo_11_ticker_tape_parade_2.jpg",
+  "full_kb": 260,
+  "med_kb": 120
+ },
+ "apollo12-launch": {
+  "source": "commons",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Apollo_12_launch.jpg",
+  "license": "Public domain",
+  "credit": "NASA / Public domain",
+  "asset_url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Apollo_12_launch.jpg",
+  "full_kb": 311,
+  "med_kb": 147
+ },
+ "apollo13-control": {
+  "source": "commons",
+  "source_url": "https://commons.wikimedia.org/wiki/File:S70-35369_Mission_Controllers_Discuss_the_Return_of_Apollo_13.jpg",
+  "license": "Public domain",
+  "credit": "NASA / Public domain",
+  "asset_url": "https://upload.wikimedia.org/wikipedia/commons/6/66/S70-35369_Mission_Controllers_Discuss_the_Return_of_Apollo_13.jpg",
+  "full_kb": 223,
+  "med_kb": 92
+ },
+ "blue-marble": {
+  "source": "commons",
+  "source_url": "https://commons.wikimedia.org/wiki/File:The_Earth_seen_from_Apollo_17.jpg",
+  "license": "Public domain",
+  "credit": "NASA/Apollo 17 crew; taken by either Harrison Schmitt or Ron Evans / Public domain",
+  "asset_url": "https://upload.wikimedia.org/wikipedia/commons/9/97/The_Earth_seen_from_Apollo_17.jpg",
+  "full_kb": 359,
+  "med_kb": 156
+ },
+ "last-footprint": {
+  "source": "commons",
+  "source_url": "https://commons.wikimedia.org/wiki/File:AS17-141-21517_(21653611326).jpg",
+  "license": "Public domain",
+  "credit": "Project Apollo Archive / Public domain",
+  "asset_url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/AS17-141-21517_%2821653611326%29.jpg",
+  "full_kb": 277,
+  "med_kb": 99
+ },
+ "skylab-repair": {
+  "source": "commons",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Deployment_of_%22Parasol%22_solar_shield_1.jpg",
+  "license": "Public domain",
+  "credit": "NASA / Public domain",
+  "asset_url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Deployment_of_%22Parasol%22_solar_shield_1.jpg",
+  "full_kb": 569,
+  "med_kb": 203
+ },
+ "family-tv": {
+  "source": "commons",
+  "source_url": "https://commons.wikimedia.org/wiki/File:President_Lyndon_B._Johnson_and_family_watch_the_Democratic_National_Convention_on_television_-_A6701-31.jpg",
+  "license": "Public domain",
+  "credit": "Yoichi Okamoto / Public domain",
+  "asset_url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/President_Lyndon_B._Johnson_and_family_watch_the_Democratic_National_Convention_on_television_-_A6701-31.jpg",
+  "full_kb": 280,
+  "med_kb": 102
+ },
+ "crowd-launch": {
+  "source": "commons",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Apollo_11_Launch_Spectators_-_GPN-2000-001851.jpg",
+  "license": "Public domain",
+  "credit": "NASA / Public domain",
+  "asset_url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Apollo_11_Launch_Spectators_-_GPN-2000-001851.jpg",
+  "full_kb": 341,
+  "med_kb": 156
+ },
+ "backyard-night": {
+  "source": "commons",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Grand_Canyon_Star_Party_-_Telescope_Lot_1611_(52962138746).jpg",
+  "license": "Public domain",
+  "credit": "Grand Canyon NPS / Public domain",
+  "asset_url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Grand_Canyon_Star_Party_-_Telescope_Lot_1611_%2852962138746%29.jpg",
+  "full_kb": 244,
+  "med_kb": 96
+ },
+ "white-room": {
+  "source": "commons",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Interior_view_of_the_White_Room_atop_Pad_A_during_the_insertion_of_the_Apollo_12_crew.jpg",
+  "license": "Public domain",
+  "credit": "NASA / Public domain",
+  "asset_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Interior_view_of_the_White_Room_atop_Pad_A_during_the_insertion_of_the_Apollo_12_crew.jpg",
+  "full_kb": 267,
+  "med_kb": 110
+ },
+ "shuttle-concept": {
+  "source": "commons",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Shuttle_-_Art_Concepts_(s70-26310).jpg",
+  "license": "Public domain",
+  "credit": "NASA Johnson Space Center / Public domain",
+  "asset_url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Shuttle_-_Art_Concepts_%28s70-26310%29.jpg",
+  "full_kb": 466,
+  "med_kb": 181
+ },
+ "astronaut-families": {
+  "source": "commons",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Astronaut_Virgil_Grissom_and_family_at_Patrick_AFB_airport.jpg",
+  "license": "Public domain",
+  "credit": "NASA / Public domain",
+  "asset_url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Astronaut_Virgil_Grissom_and_family_at_Patrick_AFB_airport.jpg",
+  "full_kb": 316,
+  "med_kb": 145
+ },
+ "moon-men-group": {
+  "source": "commons",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Apollo_Astronauts.jpg",
+  "license": "Public domain",
+  "credit": "NASA / Public domain",
+  "asset_url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Apollo_Astronauts.jpg",
+  "full_kb": 294,
+  "med_kb": 114
+ }
+}

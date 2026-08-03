@@ -17,7 +17,18 @@
         <h1 class="single-post-title"><?php the_title(); ?></h1>
     </header>
 
-    <?php if ( has_post_thumbnail() ) : ?>
+    <?php
+    /*
+     * Posts illustrated from the image vault carry their own figure in the body,
+     * and its first image is the featured one. Printing the thumbnail here as
+     * well would open every entry with the same picture twice and flatten the
+     * varied layouts back into "image at the top, text below". The featured
+     * image itself is untouched, so archive cards and search results still
+     * paint it.
+     */
+    $apollo_has_vault_figure = false !== strpos( get_post()->post_content, '<!-- apollo-vault:' );
+    ?>
+    <?php if ( has_post_thumbnail() && ! $apollo_has_vault_figure ) : ?>
         <img class="single-post-featured"
              src="<?php echo esc_url( get_the_post_thumbnail_url( null, 'apollo-featured' ) ); ?>"
              alt="<?php the_title_attribute(); ?>">

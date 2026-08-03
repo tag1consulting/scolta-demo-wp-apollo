@@ -17,15 +17,28 @@ All Apollo program facts, dates, mission statistics, and biographical details we
 
 ## Images
 
-NASA images are in the public domain. No images have been committed to this repository as of initial creation. Recommended sources for future image additions:
+Every post is illustrated from the image vault: 113 images, all Public Domain,
+CC0, CC BY, or CC BY-SA, hosted locally under `wp-content/uploads/vault/`.
+Nothing hot-links.
 
+**The per-image credit, licence and source URL for all 113 are recorded in
+`wp-content/uploads/vault/SOURCES-vault.md`**, generated at fetch time from each
+source's own metadata, with the machine-readable copy in
+`wp-content/uploads/vault/credits.json`. Each figure prints its credit on the
+page.
+
+Sources used:
+
+- **Wikimedia Commons**: commons.wikimedia.org
+  - Licence read from the file's own `extmetadata`; anything NC, ND, or
+    all-rights-reserved is refused by the fetch script.
 - **NASA Image and Video Library**: images.nasa.gov
-  - Search by mission: "Apollo 11", "Apollo 15 Rover", "Earthrise", etc.
-  - All NASA imagery is public domain unless otherwise noted
+  - All NASA imagery is public domain unless otherwise noted.
 - **NASA JSC Digital Image Collection**: archive.org/details/nasajsc
-- **The Planetary Society image archive**
 
-When adding images, record the NASA image ID, collection, and original photographer/source in this file.
+To add or swap an image, edit `image-vault/image-manifest.json` and re-run
+`image-vault/fetch-vault-images.py`; the credit files regenerate. The full
+runbook is in `image-vault/APOLLO_IMAGE_VAULT.md`.
 
 ## Narrator Voice
 
